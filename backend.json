@@ -1,0 +1,198 @@
+[
+  {
+    "name": "PostgresSQL 1-14",
+    "ring": "hold",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "Relational database for our backend services"
+  },
+  {
+    "name": "PostgresSQL 15",
+    "ring": "adopt",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "Relational database for our backend services"
+  },
+  {
+    "name": "Redis",
+    "ring": "adopt",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "Document database for our backend services"
+  },
+  {
+    "name": "Cloud SQL",
+    "ring": "adopt",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "Relational database service for our backend"
+  },
+  {
+    "name": "Elasticsearch 1-8",
+    "ring": "trial",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "Search database for our backend services"
+  },
+  {
+    "name": "Memcached",
+    "ring": "adopt",
+    "quadrant": "Platforms",
+    "isNew": "TRUE",
+    "description": "Multicore memory database"
+  },
+  {
+    "name": "Google Pub/Sub",
+    "ring": "adopt",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "A distributed event store and stream-processing platform for our backend services"
+  },
+  {
+    "name": "Google Cloud Scheduler",
+    "ring": "adopt",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "A fully managed cron job service for our backend services"
+  },
+  {
+    "name": "Google Cloud Function",
+    "ring": "adopt",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "A serverless compute platform for our backend services"
+  },
+  {
+    "name": "Monorepo",
+    "ring": "adopt",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "Monorepo is our main repository for all backend services"
+  },
+  {
+    "name": "Hexagonal Architecture",
+    "ring": "adopt",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "Hexagonal Architecture is our main architecture for all backend services"
+  },
+  {
+    "name": "Saga Pattern",
+    "ring": "adopt",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "Failure management pattern that helps establish consistency in distributed applications, and coordinates transactions between multiple microservices to maintain data consistency"
+  },
+  {
+    "name": "Event Driven Architecture",
+    "ring": "adopt",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "Event Driven Architecture is our main architecture for all backend services"
+  },
+  {
+    "name": "gRPC",
+    "ring": "adopt",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "gRPC is our main communication protocol for all backend services"
+  },
+  {
+    "name": "GCP Memory Store Redis",
+    "ring": "adopt",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "In memory service for Redis and Memcached datastore for our backend services"
+  },
+  {
+    "name": "GCP Memory Store Memcached",
+    "ring": "trial",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "In memory service for Redis and Memcached datastore for our backend services"
+  },
+  {
+    "name": "Docker",
+    "ring": "adopt",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "We build our backend application as Docker image"
+  },
+  {
+    "name": "Cloud Run",
+    "ring": "adopt",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "We deploy our backend application as Cloud Run service"
+  },
+  {
+    "name": "Gitlab CI/CD YML",
+    "ring": "adopt",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "Gitlab is our main automation for CI/CD"
+  },
+  {
+    "name": "NestJS",
+    "ring": "adopt",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "NestJS is our main framework"
+  },
+  {
+    "name": "Go-Lang",
+    "ring": "adopt",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "We use Go-Lang only for new services"
+  },
+  {
+    "name": "Java 8",
+    "ring": "hold",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "Java 8 is already EOL, please use Java 11 for new backend project"
+  },
+  {
+    "name": "Scala",
+    "ring": "hold",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "Learning scala is really hard, we already try it, and we will not continue to use Scala, please use Java"
+  },
+  {
+    "name": "Bunyan Logger",
+    "ring": "adopt",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "Bunyan Logger is our main logging library"
+  },
+  {
+    "name": "Google Cloud Log",
+    "ring": "adopt",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "description": "Google Cloud Log is our main logging library for Google Cloud Platform"
+  },
+  {
+    "name": "Typescript",
+    "ring": "adopt",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "For new project, please use Project Reactor"
+  },
+  {
+    "name": "Pentaho",
+    "ring": "adopt",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "description": "ETL tools capabilities that facilitate the process of capturing, cleansing, and storing data using a uniform and consistent format that is accessible and relevant to end users and IoT technologies"
+  },
+  {
+    "name": "Commit Convention",
+    "ring": "adopt",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "Git commit message with convention"
+  }
+]
