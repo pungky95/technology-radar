@@ -1,12 +1,5 @@
 [
   {
-    "name": "PostgresSQL 1-14",
-    "ring": "hold",
-    "quadrant": "Platforms",
-    "isNew": "FALSE",
-    "description": "Relational database for our backend services"
-  },
-  {
     "name": "PostgresSQL 15",
     "ring": "adopt",
     "quadrant": "Platforms",
@@ -31,15 +24,8 @@
     "name": "Elasticsearch 1-8",
     "ring": "trial",
     "quadrant": "Platforms",
-    "isNew": "FALSE",
-    "description": "Search database for our backend services"
-  },
-  {
-    "name": "Memcached",
-    "ring": "adopt",
-    "quadrant": "Platforms",
     "isNew": "TRUE",
-    "description": "Multicore memory database"
+    "description": "Search database for our backend services"
   },
   {
     "name": "Google Pub/Sub",
@@ -72,7 +58,7 @@
   {
     "name": "Hexagonal Architecture",
     "ring": "adopt",
-    "quadrant": "Platforms",
+    "quadrant": "Techniques",
     "isNew": "FALSE",
     "description": "Hexagonal Architecture is our main architecture for all backend services"
   },
@@ -100,13 +86,6 @@
   {
     "name": "GCP Memory Store Redis",
     "ring": "adopt",
-    "quadrant": "Platforms",
-    "isNew": "FALSE",
-    "description": "In memory service for Redis and Memcached datastore for our backend services"
-  },
-  {
-    "name": "GCP Memory Store Memcached",
-    "ring": "trial",
     "quadrant": "Platforms",
     "isNew": "FALSE",
     "description": "In memory service for Redis and Memcached datastore for our backend services"
@@ -147,11 +126,11 @@
     "description": "We use Go-Lang only for new services"
   },
   {
-    "name": "Java 8",
-    "ring": "hold",
-    "quadrant": "Languages and Frameworks",
+    "name": "Google Artifact Registry",
+    "ring": "adopt",
+    "quadrant": "Platforms",
     "isNew": "FALSE",
-    "description": "Java 8 is already EOL, please use Java 11 for new backend project"
+    "description": "Google Artifact Registry is a managed service on Google Cloud Platform for securely storing and distributing software artifacts like container images and packages."
   },
   {
     "name": "Scala",
